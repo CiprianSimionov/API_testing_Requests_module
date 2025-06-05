@@ -1,7 +1,8 @@
 **API testing** - Created with python library requests for https://simple-books-api.glitch.me
 
-* Install:
-`pip install pytest`
+* Install:\
+`pip install pytest`\
+`pip install Faker`
 * Run tests using:
 `pytest`
 * Run specific tests:
