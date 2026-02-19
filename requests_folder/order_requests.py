@@ -12,7 +12,7 @@ def submit_an_order(book_id, customer_name):
         "bookId": book_id,
         "customerName": customer_name
     }
-    response = requests.post("https://simple-books-api.glitch.me/orders", headers=header, json=data)
+    response = requests.post("https://simple-books-api.click/orders", headers=header, json=data)
     return response
 
 
@@ -21,17 +21,17 @@ def update_an_order(order_id):
     data = {
         "customerName": "Markus"
     }
-    response = requests.patch(f"https://simple-books-api.glitch.me/orders/{order_id}", headers=header, json=data)
+    response = requests.patch(f"https://simple-books-api.click/orders/{order_id}", headers=header, json=data)
     return response
 
 
 def get_an_order(order_id):
     header = {'Authorization': token}
-    response = requests.get(f"https://simple-books-api.glitch.me/orders/{order_id}", headers=header)
+    response = requests.get(f"https://simple-books-api.click/orders/{order_id}", headers=header)
     return response
 
 
 def delete_an_order(order_id):
     header = {'Authorization': token}
-    response = requests.delete(f"https://simple-books-api.glitch.me/orders/{order_id}", headers=header)
+    response = requests.delete(f"https://simple-books-api.click/orders/{order_id}", headers=header)
     return response

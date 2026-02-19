@@ -18,5 +18,5 @@ def generate_token(name="", email=""):
         "clientName": name,
         "clientEmail": email
     }
-    response = requests.post("https://simple-books-api.glitch.me/api-clients/", json=faker_data)
+    response = requests.post("https://simple-books-api.click/api-clients/", json=faker_data)
     return response.json()["accessToken"]
