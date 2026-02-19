@@ -1,4 +1,4 @@
-**API testing** - Created with python library requests for https://simple-books-api.glitch.me
+**API testing** - Created with python library requests for https://simple-books-api.click
 
 * Install:\
 `pip install pytest`\
